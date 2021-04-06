@@ -1,14 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,400&display=swap");
 
 body {
-  background-color: #CDCDC0;
-  font-family: 'Poppins', sans-serif;   
+  background-color: #cdcdc0;
+  font-family: "Poppins", sans-serif;
 }
 
-.logo{
+/*Header de nuestra aplicación*/
+.logo {
+  background-color: #626d71;
+  text-align: right;
+}
+
+.imagenLogo {
+  width: 200px;
+}
+
+.barraNavegacon {
+  border-style: ridge;
+  border-color: #626d71;
+  background-color: #ddbc95;
+  height: 50px;
+}
+
+li {
+  display: inline;
+  font-size: 20px;
+  margin-right: 50px;
+}
+
+/* Sección Slider */
+.slider {
     background-color: #626d71;
+    height: 300px;
+    text-align: center;
 }
 
-.barraNavegacon{
-    background-color: #DDBC95;
+/*Sección de noticias*/
+.noticias {
+  background-color: #b38867;
+}
+
+/*Footer de nuestra aplicación*/
+.pie {
+  background-color: #626d71;
 }
